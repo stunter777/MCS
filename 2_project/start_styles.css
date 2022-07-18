@@ -1,0 +1,24 @@
+h1,h2,h3 {
+    display: block;
+    color:aliceblue;
+    background-color: black;
+}
+p,ul {
+    padding-bottom;: 20px
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.cont:link {
+    color: blue;
+}
+.cont:visited {
+    color: purple; 
+  }
+.cont:hover {
+    color: aqua;
+    text-decoration: underline;
+  }
+.cont:active {
+    color: red;
+  }
