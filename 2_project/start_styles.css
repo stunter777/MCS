@@ -15,10 +15,13 @@ body {
 .cont:visited {
     color: purple; 
   }
+.cont:visited:hover {
+    color: green; 
+  }
 .cont:hover {
     color: aqua;
     text-decoration: underline;
   }
-.cont:active {
+.cont:visited:active {
     color: red;
   }

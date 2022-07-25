@@ -4,10 +4,7 @@
     box-sizing: border-box;
   }
 .header-container {
-    padding-top: 0 px;
-    padding-left: 0px;
-    width: 1094px;
-    height: 200px;
+    padding: 80 px;
     background-color:#b8704f;
 }
 .header {
@@ -15,21 +12,15 @@
     font-size: 50px;
     line-height: 57.5px;
     color: #FFFFFF;
-    width: 470px;
-    height: 40px;
-    padding-left: 80px;
-    padding-top: 80px;
-    display: flex;
-    align-items: center;
 }
 .image{
-    width: 1094px;
     height: 1280px;
     background-image: url(sneaky.jpeg);
-
+    background-size: cover;
+    background-position: center;
+    width:100%;
 }
 .links {
-    width: 1094px;
     height: 100px;
     background-color: #b8704f
 }
@@ -47,9 +38,6 @@
    text-transform:uppercase;
 }
 .text{
-width: 1280px;
-left: 80px;
-top: 1490px;
 font-family: 'Helvetica';
 font-style: normal;
 line-height: 57px;
@@ -59,15 +47,10 @@ color: #000000;
     font-weight: 100px;
 }
 .footer-container {
-    width: 1094px;
-    height: 200px;
+    padding: 80px;
+    display:flex;
+    justify-content: space-between;
     background-color: #b8704f;
-}
-.footer-logo {
-  display:flex;
-  align-items: flex-start;
-  padding-top: 80px;
-  padding-left: 80px;   
 }
 .footer-text{
     width: 614px;
