@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a:link,
+a:visited {
+  color: #E50043;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.header-container {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 40px;
+    width: 100%;
+    position: fixed;
+    z-index:2;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+}
+.menu-left {
+    width: 120px;
+    height: 40px;
+    left: 50px;
+    top: 50px;
+    line-height: 57px;
+    display: inline-block;
+    display: flex;
+    align-items: center;   
+    color: #E50043;
+    z-index:2;
+}
+.menu-links >li {
+    margin-right: 50px;
+    display: inline;
+    z-index:2;
+    
+}
+.image{
+    position: absolute;
+    width: 1440px;
+    height: 950px;
+    left: 0px;
+    top: 140px;
+    background-image: url(evian_origins_logo.png);
+}
+.glass{
+    position: absolute;
+    width: 1440px;
+    height: 950px;
+    left: 0px; /*почему он слева? На фигме с тем же кодом он по центру... */
+    top: 140px;
+    width:1440px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E50043;
+
+}
+.pink{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1040px;
+    height: 280px;
+    left: 201px;
+    top: 1240px;
+
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+}
+.pink-text{
+    position: absolute;
+    width: 992px;
+    height: 232px;
+    left: 225px;
+    top: 1264px;
+
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+    
+.wang {
+    position: absolute;
+    width: 281px;
+    height: 863px;
+    left: 200px;
+    top: 1670px;
+}
+.blue{
+    position: absolute;
+    width: 279px;
+    height: 863px;
+    left: 581px;
+    top: 1670px;
+
+}
+.chiara{
+    position: absolute;
+    width: 280px;
+    height: 863px;
+    left: 960px;
+    top: 1670px;
+}
+.description{
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+.desc-1{
+    position: absolute;
+    width: 248px;
+    height: 58px;
+    left: 216px;
+    top: 2581px;
+}
+.desc-2{
+    position: absolute;
+    width: 249px;
+    height: 58px;
+    left: 601px;
+    top: 2575px;
+}
+.desc-3{
+    position: absolute;
+    width: 237px;
+    height: 58px;
+    left: 987px;
+    top: 2575px;
+}
+.pink-two{
+    position: absolute;
+    width: 1440px;
+    height: 3359px;
+    left: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+}
+.pinkborder{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1040px;
+    height: 280px;
+    left: 201px;
+    top: 2789px;
+
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+}
+.box{
+    box-sizing: border-box;
+    display:flex;
+    justify-content:center;
+}
+.texttwo{
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+.glasstwo{
+    width: 101px;
+    height: 220px;
+}
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 140px;
+    left: 0px;
+    top: 3219px;
+
+    background-color: #F8BFC7;
+}
+.copyright{
+    padding:50px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
