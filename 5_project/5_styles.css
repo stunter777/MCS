@@ -19,6 +19,8 @@ a:hover {
     padding: 40px;
     width: 100%;
     position: fixed;
+    left:0;
+    top:0;
     z-index:2;
     font-family: 'Arial';
     font-style: normal;
@@ -44,12 +46,26 @@ a:hover {
     
 }
 .image{
-    position: absolute;
-    width: 1440px;
     height: 950px;
-    left: 0px;
-    top: 140px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-size:cover;
+    background-position:center;
+    width:100%;
+    margin-top:80px;
     background-image: url(evian_origins_logo.png);
+}
+.image >h1{
+    color: #E50043;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 .glass{
     position: absolute;
@@ -70,125 +86,71 @@ a:hover {
 
 }
 .pink{
-    box-sizing: border-box;
-    position: absolute;
     width: 1040px;
-    height: 280px;
-    left: 201px;
-    top: 1240px;
-
-    border: 3px solid #F8BFC7;
+    padding:25px;
+    border:3px solid #F8BFC7;
     border-radius: 20px;
-}
-.pink-text{
-    position: absolute;
-    width: 992px;
-    height: 232px;
-    left: 225px;
-    top: 1264px;
-
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
     font-family: 'Arial';
     font-size: 25px;
     line-height: 29px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.05em;
 
     color: #000000;
+    
 }
-.photo-grid-container {
+.pink >h4{
+    margin: 0 0 15px 0;
+    text-decoration: none;
+}
+.pink >p{
+    margin:0;
+    padding:0;
+}
+.grid-cont{
     display: flex;
     justify-content: center;
+}
+.photo-grid{
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
   }
     
-.wang {
-    position: absolute;
-    width: 281px;
-    height: 863px;
-    left: 200px;
-    top: 1670px;
-}
-.blue{
-    position: absolute;
-    width: 279px;
-    height: 863px;
-    left: 581px;
-    top: 1670px;
-
-}
-.chiara{
-    position: absolute;
-    width: 280px;
-    height: 863px;
-    left: 960px;
-    top: 1670px;
-}
-.description{
+.desc{
     font-family: 'Arial';
     font-size: 25px;
     line-height: 29px;
     display: flex;
     align-items: center;
     text-align: center;
-
     color: #000000;
+    margin: 30px 117px 150px 30px;
 }
-.desc-1{
-    position: absolute;
-    width: 248px;
-    height: 58px;
-    left: 216px;
-    top: 2581px;
-}
-.desc-2{
-    position: absolute;
-    width: 249px;
-    height: 58px;
-    left: 601px;
-    top: 2575px;
-}
-.desc-3{
-    position: absolute;
-    width: 237px;
-    height: 58px;
-    left: 987px;
-    top: 2575px;
-}
-.pink-two{
-    position: absolute;
-    width: 1440px;
-    height: 3359px;
-    left: 0px;
-    top: 0px;
-    box-sizing: border-box;
-    border: 3px solid #F8BFC7;
-    border-radius: 20px;
-}
-.pinkborder{
-    box-sizing: border-box;
-    position: absolute;
-    width: 1040px;
-    height: 280px;
-    left: 201px;
-    top: 2789px;
 
-    border: 3px solid #F8BFC7;
-    border-radius: 20px;
-}
 .box{
     box-sizing: border-box;
     display:flex;
     justify-content:center;
 }
-.texttwo{
+.pinkphoto{
+    padding: 20px;
+}
+.pink-right-desc{
     font-family: 'Arial';
     font-size: 25px;
     line-height: 29px;
     display: flex;
-    align-items: center;
     letter-spacing: 0.05em;
-
+    flex-direction:column;
+    /* align-items: stretch; ??? */
     color: #000000;
+}
+.pink-right-desc p{
+    padding:20px;
 }
 .glasstwo{
     width: 101px;
