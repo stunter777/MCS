@@ -52,11 +52,8 @@
 }
 /* Макет для мобильных */
 @media only screen and (max-width: 845px) {
-    .page{
-        flex-direction: column;
-    }
     .rectangle{
-        width:75%;
+        width:100%;
     }
     .footer-cont,header-cont{
         width:100%;
