@@ -25,11 +25,9 @@
     display: flex;
     justify-content: space-between;
     padding: 70px;
-    flex-wrap: wrap;
 }
 .card{
     width: 400px;
-    height: 985px;
     border: 1px solid #000000;
 }
 .float{
