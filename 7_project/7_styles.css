@@ -27,7 +27,7 @@
     padding: 70px;
 }
 .card{
-    width: 400px;
+    width: 30%;
     border: 1px solid #000000;
 }
 .float{
@@ -74,7 +74,10 @@ p{
 /* Макет для мобильных */
 @media only screen and (max-width: 845px) {
     .card{
-        width: 500px;
+        width:auto;
         border: 1px solid #000000;
     }
+  }
+  .meta>img,.click>img, .float>img {
+    width:100%
   }

@@ -3,14 +3,13 @@
     padding: 0;
     box-sizing: border-box;
   }
-  a:link,
-a:visited {
-  color: #E50043;
-  text-decoration: none;
+  a:link {
+    transition: all .5s linear 0;
+    color: hsl(36,50%,50%);
 }
 
 a:hover {
-  text-decoration: underline;
+    color: hsl(36,100%,50%);
 }
 .header-container {
     display:flex;
@@ -98,7 +97,7 @@ a:hover {
     font-size: 25px;
     line-height: 29px;
     letter-spacing: 0.05em;
-
+    transform: translate(100px,200px);
     color: #000000;
     
 }

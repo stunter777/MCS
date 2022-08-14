@@ -53,28 +53,28 @@ a:hover {
     background-image: url(background.png);
     width:100%;
     height:643px;
+    padding:100px;
     background-position:center;
     background-size:cover;
     margin-top:50px;
 }
-
 .speaker-form{
     background: #F8BFC7;
     border: 3px solid #FFFFFF;
     border-radius: 20px;
-    width: 25%;
-    height:450px;
-    padding: 30px;
-    margin: 120px;
+    padding: 50px;
     display:flex;
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.form-row{
-    /* display: flex; Почему в этом селекторе ничего не работает? */
+/* .form-row{
+    display: flex; 
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
+}*/
+.form-button{
+    display: flex;
+    justify-content: center;
 }
 .form-row input[type='text'],.form-row input[type="email"]{
     
