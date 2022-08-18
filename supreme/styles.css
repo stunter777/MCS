@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.header-container{
+    display:flex;
+    justify-content: center;
+}
+.header{
+    width: 287px;
+    height: 82px;
+    margin-top:180px;
+    padding:2px 25px 11px 23px;
+    background-color: #FF0000;
+}
+.supreme{
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+.timeline{
+    margin-top: 38px;
+    display:flex;
+    justify-content: center;
+}
+.font{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    font-feature-settings: 'calt' off, 'liga' off;
+    color: #FFFFFF
+}
+nav{
+    display:flex;
+    justify-content:center;
+}
+nav>ul{
+    margin-top:91px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+nav>ul>li> a:hover{
+    transform: scaleX(1);
+    transition:transform 0.25s;
+    background-color: #FF0000;
+}
+
+
+.social{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+  }
+  
+  .social__icon{
+    text-decoration: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #00000080;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow:hidden;
+  }
+  
+  .social__icon i {
+    font-size: 26px;
+    color: #67798e;
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+  
+  .social__icon:after{
+    content: "";
+    width: 70px;
+    height: 70px;
+    position:absolute;
+    transform: translate(0, 70px);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    background-color: red;
+  }
+  .social__icon:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 0px 15px #00000080;
+  }
+  
+  .social__icon:hover i{
+     color: #fff;
+  }
+  
+  .social__icon:hover:after{
+    transform: translate(0);
+  }
+  @media only screen and (max-width: 845px) {
+      header nav footer{
+          width:100%;
+      }
+  }

@@ -1,0 +1,24 @@
+@mixin fontss(){
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    font-feature-settings: 'calt' off, 'liga' off;
+    color: #FFFFFF
+}
+.font{
+    @include fontss();
+}
+@mixin font_heading(){
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 69px;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+}
+.supreme{
+    @include font_heading();
+}

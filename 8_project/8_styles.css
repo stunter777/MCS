@@ -67,6 +67,9 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap;
 }
+form{
+    width:30%
+}
 /* .form-row{
     display: flex; 
     flex-direction: column;
@@ -119,11 +122,12 @@ a:hover {
     cursor: pointer;
 }
 .line-cont{
-    display: flex;
+    border-color:#336FD1;
+    display:flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-color:rgb(74, 128, 230);
+    background-color:#336FD1;
 }
 .line{
     font-family: 'Helvetica';
@@ -132,7 +136,6 @@ a:hover {
     color: #FEB700;
 }
 footer{
-    width: 1440px;
     height: 90px;
     background: #F8BFC7;
     padding:30px;

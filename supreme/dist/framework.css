@@ -1,0 +1,44 @@
+html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html body {
+  background-color: black;
+}
+html .header-container {
+  display: flex;
+  justify-content: center;
+}
+html .header {
+  width: 287px;
+  height: 82px;
+  margin-top: 180px;
+  padding: 2px 25px 11px 23px;
+  background-color: #FF0000;
+}
+html .timeline {
+  margin-top: 38px;
+  display: flex;
+  justify-content: center;
+}
+
+.font {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  font-feature-settings: "calt" off, "liga" off;
+  color: #FFFFFF;
+}
+
+.supreme {
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+}

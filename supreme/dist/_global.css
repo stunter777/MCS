@@ -1,0 +1,24 @@
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body body {
+  background-color: black;
+}
+body .header-container {
+  display: flex;
+  justify-content: center;
+}
+body .header {
+  width: 287px;
+  height: 82px;
+  margin-top: 180px;
+  padding: 2px 25px 11px 23px;
+  background-color: #ff0000;
+}
+body .timeline {
+  margin-top: 38px;
+  display: flex;
+  justify-content: center;
+}
