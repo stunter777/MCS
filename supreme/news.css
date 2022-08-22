@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color:  white;
 }
 
 .header-container{
@@ -27,6 +27,10 @@ body{
     letter-spacing: -0.05em;
     color: #FFFFFF;
 }
+.timeline{
+    margin-top: 38px;
+    display:flex;
+}
 .font{
     font-family: 'Space Mono';
     font-style: normal;
@@ -34,14 +38,67 @@ body{
     font-size: 20px;
     line-height: 35px;
     font-feature-settings: 'calt' off, 'liga' off;
-    color: #FFFFFF
+    color: black;
 }
-.timeline{
-    margin-top: 38px;
-    display:flex;
+article{
+    display: flex;
     justify-content: center;
 }
-
+.zaeb{
+    margin-top:100px;
+    width:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text{
+    display:flex;
+    align-items:flex-start;
+    justify-content: flex-end;
+    text-align: left;
+    flex-direction: column;
+    padding: 30px;
+}
+.text-headline{
+    display: flex;
+    padding-bottom:35px;
+    justify-content: center;
+}
+.monograph{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+@media only screen and (max-width: 580px) {
+    .momograph{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 10px;
+        width:100%;
+    }
+    .pic{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    article{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+.effect-container{
+    margin:30px;
+}
 .menu-hover-effect {
     font-family: 'Space Mono';
     font-style: normal;
@@ -49,20 +106,24 @@ body{
     font-size: 20px;
     line-height: 35px;
     font-feature-settings: 'calt' off, 'liga' off;
-    color: #FFFFFF
+    color: black;
   }
   .menu-hover-effect ul {
-    margin-top: 91px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
   }
   .menu-hover-effect ul li a {
+    display: inline-block;
     text-decoration: none;
     position: relative;
-    color: white;
+    color: #222;
     padding: 10px 22px;
   }
   
-  /* effect 1 styles */
-  .menu-hover-effect-1>a {
+  .menu-hover-effect-1 a {
     transition: color 0.2s linear 0s;
   }
   .menu-hover-effect-1 a:before {
@@ -74,7 +135,7 @@ body{
     width: 100%;
     height: 100%;
     background-color: red;
-    border-radius: 5px;
+    border-radius: 10px;
     z-index: -1;
     transform: scale(0.3, 1);
     opacity: 0;
@@ -86,77 +147,4 @@ body{
     transform: scale(1, 1);
     opacity: 1;
     transition: all 0.2s linear 0s;
-  }
-
-  nav{
-    display:flex;
-    justify-content:center;
-}
-nav>div>ul{
-    margin-top:91px;
-}
-a{
-    text-decoration: none;
-    color:white;
-}
-
-
-
-.social{
-    width: 100%;
-    height: 100vh;
-    display:flex;
-    justify-content:center;
-    margin-top:20px;
-  }
-  
-  .social__icon{
-    text-decoration: none;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    width: 70px;
-    height: 70px;
-    margin: 10px;
-    background-color: black;
-    border-radius: 50%;
-    box-shadow: 0px 0px 5px #00000080;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow:hidden;
-  }
-  
-  .social__icon i {
-    font-size: 26px;
-    color: #67798e;
-    transition: all 0.3s ease;
-    z-index: 1;
-  }
-  
-  .social__icon:after{
-    content: "";
-    width: 70px;
-    height: 70px;
-    position:absolute;
-    transform: translate(0, 70px);
-    border-radius: 50%;
-    transition: all 0.3s ease;
-    background-color: red;
-  }
-  .social__icon:hover {
-    transform: translateY(-4px);
-    box-shadow: 0px 0px 15px #00000080;
-  }
-  
-  .social__icon:hover i{
-     color: #fff;
-  }
-  
-  .social__icon:hover:after{
-    transform: translate(0);
-  }
-  @media only screen and (max-width: 845px) {
-      header nav footer{
-          width:100%;
-      }
   }
