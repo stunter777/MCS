@@ -60,10 +60,10 @@ article{
 .text{
     display:flex;
     align-items:flex-start;
-    justify-content: flex-end;
+    justify-content: flex-start;
     text-align: left;
     flex-direction: column;
-    padding: 30px;
+    padding: 20px;
 }
 .text-headline{
     display: flex;
@@ -76,14 +76,22 @@ article{
     flex-direction: row;
 }
 @media only screen and (max-width: 580px) {
-    .momograph{
+    .zaeb{
         display:flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: column;
-        margin: 10px;
-        width:100%;
+        width:80%;
+    }
+    .monograph{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 30px;
+        width:80%;
     }
     .pic{
         display:flex;
@@ -93,6 +101,21 @@ article{
     article{
         display: flex;
         justify-content: center;
+    }
+    .effect-container{
+        width:70%;
+    }
+    .menu-hover-effect{
+        display: flex;
+        justify-content: center;
+    }
+    .menu-hover-effect>ul {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 50%;
+        align-items: center;
     }
     
 }

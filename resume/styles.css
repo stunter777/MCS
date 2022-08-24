@@ -61,7 +61,6 @@ body{
     padding: 10px 22px;
   }
   
-  /* effect 1 styles */
   .menu-hover-effect-1>a {
     transition: color 0.2s linear 0s;
   }
